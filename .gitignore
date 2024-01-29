@@ -21,3 +21,6 @@
 
 #Library Folder
 ~/Library
+
+#DSStore
+.DS_Store
