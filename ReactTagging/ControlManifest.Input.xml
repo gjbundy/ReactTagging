@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="GBComponents" constructor="ReactTagging" version="1.0.1" display-name-key="ReactTagging" description-key="ReactTagging description" control-type="virtual">
+    <external-service-usage enabled="false">
+    </external-service-usage>
+    <type-group name="forTags">
+      <type>SingleLine.Text</type>
+      <type>SingleLine.TextArea</type>
+      <type>Multiple</type>
+    </type-group>
+    <property name="Tags" display-name-key="Tags" description-key="Tags" of-type-group="forTags" usage="bound" required="true" />
+    <property name="Theme" display-name-key="Theme" description-key="Theme" of-type="Enum" usage="input" required="false">
+      <value name="lightThemeCompanyBlue" display-name-key="lightThemeCompanyBlue" description-key="lightThemeCompanyBlue">Company Blue Light Theme</value>
+      <value name="darkThemeCompanyBlue" display-name-key="darkThemeCompanyBlue" description-key="darkThemeCompanyBlue">Company Blue Dark Theme</value>
+      <value name="useDefault" display-name-key="useDefault" description-key="useDefault">Use Platform Theme</value>
+      <value name="webLightTheme" display-name-key="webLightTheme" description-key="webLightTheme">Web Light Theme</value>
+      <value name="webDarkTheme" display-name-key="webDarkTheme" description-key="webDarkTheme">Web Dark Theme</value>
+      <value name="teamsLightTheme" display-name-key="teamsLightTheme" description-key="teamsLightTheme">Teams Light Theme</value>
+      <value name="teamsDarkTheme" display-name-key="teamsDarkTheme" description-key="teamsDarkTheme">Teams Dark Theme</value>
+    </property>
+    <property name="TagShape" display-name-key="TagShape" description-key="TagShape" of-type="Enum" usage="input" required="false">
+      <value name="circular" display-name-key="circular" description-key="circular">Circular</value>
+      <value name="rounded" display-name-key="rounded" description-key="rounded">Rounded</value>
+    </property>
+    <property name="TagAppearance" display-name-key="TagAppearance" description-key="TagAppearance" of-type="Enum" usage="input" required="false">
+      <value name="brand" display-name-key="brand" description-key="brand">Brand</value>
+      <value name="filled" display-name-key="filled" description-key="filled">Filled</value>
+      <value name="outline" display-name-key="outline" description-key="outline">Outline</value>
+    </property>
+    <resources>
+      <code path="index.ts" order="1"/>
+      <platform-library name="React" version="16.8.6" />
+      <platform-library name="Fluent" version="9.4.0" />
+      <!-- <resx path="strings/ReactTagging.1033.resx" version="1.0.0" /> -->
+    </resources>
+  </control>
+</manifest>
