@@ -9,20 +9,20 @@
       <type>Multiple</type>
     </type-group>
     <property name="Tags" display-name-key="Tags" description-key="Tags" of-type-group="forTags" usage="bound" required="true" />
-    <property name="Theme" display-name-key="Theme" description-key="Theme" of-type="Enum" usage="input" required="false">
-      <value name="Use Platform Theme" display-name-key="useDefault" description-key="useDefault">Use Platform Theme</value>
-      <value name="Web Light Theme" display-name-key="webLightTheme" description-key="webLightTheme">Web Light Theme</value>
-      <value name="Web Dark Theme" display-name-key="webDarkTheme" description-key="webDarkTheme">Web Dark Theme</value>
-      <value name="Teams Light Theme" display-name-key="teamsLightTheme" description-key="teamsLightTheme">Teams Light Theme</value>
-      <value name="Teams Dark Theme" display-name-key="teamsDarkTheme" description-key="teamsDarkTheme">Teams Dark Theme</value>
-      <value name="Light Theme Company Blue" display-name-key="lightThemeCompanyBlue" description-key="Light Theme Company Blue">Company Blue Light Theme</value>
-      <value name="Dark Theme Company Blue" display-name-key="darkThemeCompanyBlue" description-key="darkThemeCompanyBlue">Company Blue Dark Theme</value>
+    <property name="Theme" display-name-key="Theme" description-key="Theme Selector" of-type="Enum" usage="input" required="false">
+      <value name="Use Platform Theme" display-name-key="Use Platform Theme" description-key="Use Platform Theme">Use Platform Theme</value>
+      <value name="Web Light Theme" display-name-key="Web Light Theme" description-key="Web Light Theme">Web Light Theme</value>
+      <value name="Web Dark Theme" display-name-key="Web Dark Theme" description-key="Web Dark Theme">Web Dark Theme</value>
+      <value name="Teams Light Theme" display-name-key="Teams Light Theme" description-key="Teams Light Theme">Teams Light Theme</value>
+      <value name="Teams Dark Theme" display-name-key="Teams Dark Theme" description-key="Teams Dark Theme">Teams Dark Theme</value>
+      <value name="Light Theme Company Blue" display-name-key="Light Theme Company Blue" description-key="Light Theme Company Blue">Company Blue Light Theme</value>
+      <value name="Dark Theme Company Blue" display-name-key="Dark Theme Company Blue" description-key="Dark Theme Company Blue">Company Blue Dark Theme</value>
     </property>
-    <property name="TagShape" display-name-key="TagShape" description-key="TagShape" of-type="Enum" usage="input" required="false">
+    <property name="TagShape" display-name-key="TagShape" description-key="This allows you to specify FluentUI 9 value for the Shape of the tags." of-type="Enum" usage="input" required="false">
       <value name="circular" display-name-key="circular" description-key="circular">Circular</value>
       <value name="rounded" display-name-key="rounded" description-key="rounded">Rounded</value>
     </property>
-    <property name="TagAppearance" display-name-key="TagAppearance" description-key="TagAppearance" of-type="Enum" usage="input" required="false">
+    <property name="TagAppearance" display-name-key="TagAppearance" description-key="This allows you to specify FluentUI 9 value for the Appearance of the tags." of-type="Enum" usage="input" required="false">
       <value name="brand" display-name-key="brand" description-key="brand">Brand</value>
       <value name="filled" display-name-key="filled" description-key="filled">Filled</value>
       <value name="outline" display-name-key="outline" description-key="outline">Outline</value>
