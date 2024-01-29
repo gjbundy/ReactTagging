@@ -21,8 +21,11 @@ This control will allow you to take a text field from your table in a Model-Driv
 
 **Step 4 - Configure the Input Configuration Options below**
 
-### Video of Installation
-[![Watch the installation video](https://img.youtube.com/vi/6hK1_rea2qc/hqdefault.jpg)](https://www.youtube.com/embed/6hK1_rea2qc)
+### Install Control to Form
+![Alt text](<docs/images/Control Installation.gif>)
+
+### Adding Tags
+![Animated Adding Tags GIF](<docs/images/How To Add Tags.gif>)
 
 
 ## Input Configurations
