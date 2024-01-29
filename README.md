@@ -22,7 +22,8 @@ This control will allow you to take a text field from your table in a Model-Driv
 **Step 4 - Configure the Input Configuration Options below**
 
 ### Video of Installation
-<iframe width="560" height="315" src="<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Watch the installation video](https://img.youtube.com/vi/nOVEWCgHnpc/hqdefault.jpg)](https://www.youtube.com/embed/nOVEWCgHnpc)
+
 
 ## Input Configurations
 
